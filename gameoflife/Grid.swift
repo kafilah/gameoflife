@@ -72,6 +72,9 @@ class Grid: SKSpriteNode {
         cellWidth = Int(size.width) / columns
         cellHeight = Int(size.height) / rows
         
+        /* Populate grid with creatures */
+        populateGrid()
+        
     }
     
     /* Creature Array */
